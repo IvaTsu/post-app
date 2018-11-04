@@ -1,12 +1,13 @@
 import React from 'react';
-import { Text } from 'react-native';
 
 import Header from './StyledHeader';
+import Button from '../Button/Button';
+import Text from '../common/Text/index';
 
 export default () => (
   <Header>
-    <Text>Undo</Text>
-    <Text>New Piece</Text>
-    <Text>Post</Text>
+    <Button text="Undo" isActive />
+    <Text text="New Piece" />
+    <Button text="Post" />
   </Header>
 );
